@@ -69,7 +69,7 @@ class AppBar extends HTMLElement {
     </style>
 
     <div class="search-container">
-      <input id="search-input" placeholder="Search ex: Batman" type="search"> 
+      <input id="search-input" placeholder="Search ex: Batman"> 
       
       <div class="header-background hide"></div>
     </div>
