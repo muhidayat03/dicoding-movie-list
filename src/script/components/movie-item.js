@@ -1,4 +1,4 @@
-class ClubItem extends HTMLElement {
+class MovieItem extends HTMLElement {
 
   constructor() {
     super();
@@ -49,9 +49,7 @@ class ClubItem extends HTMLElement {
           text-align: center;
         }
 
-        .club-info {
-          padding: 24px;
-        }
+       
 
         :host{
           width : calc(100% / 3);
@@ -74,7 +72,7 @@ class ClubItem extends HTMLElement {
 
       <div>
         <div class="container">
-        <img class="fan-art-club" src="${this._movie.Poster}" alt="Fan Art">
+        <img src="${this._movie.Poster}" alt="Fan Art">
         <div>
         <h3>${this._movie.Title}</h2>
         <p>${this._movie.Year}</p>
@@ -85,4 +83,4 @@ class ClubItem extends HTMLElement {
 
 }
 
-customElements.define("movie-item", ClubItem); 
+customElements.define("movie-item", MovieItem); 

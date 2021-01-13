@@ -1,5 +1,5 @@
 {
-  "name": "dicoding-clubfinder",
+  "name": "dicoding-movie-list",
   "version": "1.0.0",
   "description": "dicoding - Belajar Fundamental Front-End Web Development",
   "main": "app.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/muhidayat03/dicoding-ClubFinder.git"
+    "url": "git+https://github.com/muhidayat03/dicoding-movie-list.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/muhidayat03/dicoding-ClubFinder/issues"
+    "url": "https://github.com/muhidayat03/dicoding-movie-list/issues"
   },
-  "homepage": "https://github.com/muhidayat03/dicoding-ClubFinder#readme",
+  "homepage": "https://github.com/muhidayat03/dicoding-movie-list#readme",
   "devDependencies": {
     "@babel/core": "^7.12.10",
     "@babel/preset-env": "^7.12.11",

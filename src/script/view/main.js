@@ -27,7 +27,7 @@ const main = () => {
         LoadingElement.isloading = true;
         page = 1;
         MovieListElement.movies = [];
-        DataSource.searchClub(page, value).then(renderResult, fallbackResult);
+        DataSource.searchMovie(page, value).then(renderResult, fallbackResult);
     }, 600);
 
     const onSearchChange = (e) => {
@@ -61,7 +61,7 @@ const main = () => {
                     page += 1;
                     request = false;
                     LoadingElement.isloading = true;
-                    DataSource.searchClub(page, value).then(onScrollMovies, () => { LoadingElement.isloading = false; });
+                    DataSource.searchMovie(page, value).then(onScrollMovies, () => { LoadingElement.isloading = false; });
                 };
             }
 

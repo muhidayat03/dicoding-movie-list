@@ -12,7 +12,7 @@ class DataSource {
         this.onFailed = onFailed;
     }
 
-    static searchClub(page, keyword) {
+    static searchMovie(page, keyword) {
         if (!keyword) {
             keyword = 'batman'
         }
