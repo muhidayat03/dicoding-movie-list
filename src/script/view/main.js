@@ -5,8 +5,8 @@ import _ from 'lodash';
 
 const main = () => {
 
-    var page = 1;
-    var request = true;
+    let page = 1;
+    let request = true;
 
     const AppHeaderElement = document.querySelector("app-header");
     const MovieListElement = document.querySelector("movie-list");

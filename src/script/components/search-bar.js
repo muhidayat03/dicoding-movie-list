@@ -85,7 +85,7 @@ class AppBar extends HTMLElement {
 
 
   onScroll() {
-    var scroll = window.scrollY; 
+    let scroll = window.scrollY; 
     if (scroll > 120) {
       this.shadowDOM.querySelector(".header-background").classList.add('show');
       this.shadowDOM.querySelector(".header-background").classList.remove('hide');
